@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="#FFE5CE"
+    tools:context=".fragment.MainFragment">
+
+    <FrameLayout
+        android:id="@+id/replaced"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="45dp" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/main_bottom_height"
+        android:layout_alignParentBottom="true"
+        android:background="#FFFFFF"
+        android:orientation="horizontal"
+        >
+
+        <com.example.dietplanapp.custom.DrawableRadioButton
+            android:id="@+id/btn_dietplan"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:button="@null"
+            android:checked="true"
+            android:drawablePadding="-3dp"
+            android:gravity="center_horizontal"
+            android:paddingTop="2dp"
+            android:text="@string/dietplan"
+            android:textColor="@color/fg_main"
+            android:textSize="11sp"
+            app:top_drawable="@drawable/bg_main_dietplan"
+            app:top_drawableSize="30dp"
+            />
+
+        <com.example.dietplanapp.custom.DrawableRadioButton
+            android:id="@+id/btn_calories_query"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawablePadding="-3dp"
+            android:gravity="center_horizontal"
+            android:paddingTop="2dp"
+            android:text="@string/caloriesquery"
+            android:textColor="@color/fg_main"
+            android:textSize="11sp"
+            app:top_drawable="@drawable/bg_main_calories_query"
+            app:top_drawableSize="30dp"
+            />
+
+        <com.example.dietplanapp.custom.DrawableRadioButton
+            android:id="@+id/btn_userinfo"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawablePadding="-3dp"
+            android:gravity="center_horizontal"
+            android:paddingTop="2dp"
+            android:text="@string/userinfo"
+            android:textColor="@color/fg_main"
+            android:textSize="11sp"
+            app:top_drawable="@drawable/bg_main_userinfo"
+            app:top_drawableSize="30dp"
+            />
+
+        <com.example.dietplanapp.custom.DrawableRadioButton
+            android:id="@+id/btn_fitness_assistant"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawablePadding="-3dp"
+            android:gravity="center_horizontal"
+            android:paddingTop="2dp"
+            android:text="@string/fitnessassistant"
+            android:textColor="@color/fg_main"
+            android:textSize="11sp"
+            app:top_drawable="@drawable/bg_main_fitness_assistant"
+            app:top_drawableSize="30dp"
+            />
+    <com.example.dietplanapp.custom.DrawableRadioButton
+        android:id="@+id/btn_analyse"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:button="@null"
+        android:drawablePadding="-3dp"
+        android:gravity="center_horizontal"
+        android:paddingTop="2dp"
+        android:text="@string/analyse"
+        android:textColor="@color/fg_main"
+        android:textSize="11sp"
+        app:top_drawable="@drawable/bg_main_fitness_assistant"
+        app:top_drawableSize="30dp"
+        />
+</RadioGroup>
+
+</RelativeLayout>

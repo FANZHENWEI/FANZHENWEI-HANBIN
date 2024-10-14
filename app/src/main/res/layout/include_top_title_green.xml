@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/ds_66dp"
+    android:background="@color/bg">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/ds_40dp"
+        android:layout_alignParentBottom="true"
+        tools:ignore="UselessParent">
+        <!--返回-->
+        <ImageView
+            android:id="@+id/iv_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/ds_11dp"
+            android:background="@mipmap/btn_back_white"
+            android:gravity="bottom"
+            tools:ignore="ContentDescription,RtlHardcoded" />
+        <!--标题-->
+        <TextView
+            android:id="@+id/tv_tittle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="제목"
+            android:textColor="@color/white"
+            android:textSize="@dimen/ds_17sp"
+            tools:ignore="HardcodedText" />
+        <!--小图标-->
+        <TextView
+            android:id="@+id/tv_base_some"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/ds_15dp"
+            android:text="其他"
+            android:textColor="@color/white"
+            android:textSize="@dimen/ds_14sp"
+            android:visibility="gone"
+            tools:ignore="HardcodedText,RtlHardcoded" />
+        <!--搜索-->
+        <ImageButton
+            android:id="@+id/iv_white_search"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/ds_16dp"
+            android:visibility="gone"
+            tools:ignore="ContentDescription,RtlHardcoded" />
+        <!--添加-->
+        <TextView
+            android:id="@+id/tv_add"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/ds_23dp"
+            android:drawablePadding="@dimen/ds_4dp"
+            android:text="添加"
+            android:textColor="@color/white"
+            android:textSize="@dimen/ds_16sp"
+            android:visibility="gone"
+            tools:ignore="HardcodedText,RtlHardcoded" />
+        <!--提交-->
+        <TextView
+            android:id="@+id/tv_commit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:visibility="gone"
+            android:layout_marginRight="@dimen/ds_23dp"
+            android:text="提交"
+            android:textColor="@color/white"
+            android:textSize="@dimen/ds_15sp"
+            tools:ignore="HardcodedText,RtlHardcoded" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_alignParentBottom="true"
+            android:background="#e0e0e0" />
+    </RelativeLayout>
+</RelativeLayout>

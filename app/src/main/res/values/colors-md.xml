@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--文字颜色-->
+    <color name="textWhite">#FFFFFF</color>
+    <color name="textBlack">#333333</color>
+    <color name="textBrown">#6A4A57</color>
+    <color name="textPink">#FE88A8</color>
+    <color name="textMaple">#977F8A</color>
+    <color name="textLightBlue">#96D6EF</color>
+    <color name="textRed">#ED5543</color>
+    <color name="textGrayish">#999999</color>
+    <color name="textGray">#666666</color>
+    <color name="colorDivide">#F9F9F9</color>
+    <color name="colorTabSelect">#FFE0AA</color>
+    <color name="colorMainDateBg">#F7F7F7</color>
+    <color name="colorControlNormal">#CCCCCC</color>
+    <color name="grey">#5E5E5E</color>
+    <color name="orange">#F75C00</color>
+    <color name="colorBackground">#F9F9F9</color>
+
+    <color name="color_schedule_text">#282D40</color>
+
+    <color name="colorTranslate">#00FFFFFF</color>
+
+    <color name="color_menu_line">#303054</color>
+
+    <color name="c_gray_6">#8a8a8a</color>
+    <color name="divider">#ffd2d2d2</color>
+    <color name="redsf">#B46175</color>
+
+    <!--共同色-->
+    <color name="load_red">#fa007a</color>
+    <color name="load_purple">#935fe7</color>
+    <color name="load_yellow">#f9b11f</color>
+    <color name="load_blue">#009cfa</color>
+    <!--全透明-->
+    <color name="cs_00000000">#00000000</color>
+    <color name="cs_646464">#646464</color>
+    <color name="cs_626262">#626262</color>
+    <!--线-->
+    <color name="cs_e8e8e8">#e8e8e8</color>
+    <color name="cs_b9b9b9">#b9b9b9</color>
+    <color name="transparent">#00000000</color>
+    <color name="cs_ebebeb">#EBEBEB</color>
+    <color name="cs_4EA1FD">#4EA1FD</color>
+    <color name="cs_8c8c8c">#8c8c8c</color>
+    <color name="cs_9b9b9b">#9b9b9b</color>
+    <color name="cs_ACACAC">#ACACAC</color>
+    <color name="line">#E5E5E5</color>
+    <!--个人信息字体-->
+    <color name="cs_494949">#494949</color>
+
+    <!--首页图标选中颜色-->
+    <color name="cs_1BA6F9">#1BA6F9</color>
+    <!--首页图标未选中颜色-->
+    <color name="cs_7F7F7F">#7F7F7F</color>
+    <!--竖的细线-->
+    <color name="cs_E2E2E2">#E2E2E2</color>
+    <!--热销商品-->
+    <color name="cs_18B7BF">#18B7BF</color>
+    <!--积分-->
+    <color name="cs_FF5353">#FF5353</color>
+    <color name="cs_b3b6bb">#b3b6bb</color>
+    <!--热销药品药名字号-->
+    <color name="cs_5D5D5D">#5D5D5D</color>
+    <color name="cs_9d9d9d">#9d9d9d</color>
+    <!--病情分类左侧未选中颜色-->
+    <color name="cs_6D6D6D">#6D6D6D</color>
+    <!--病情分类左侧选中颜色-->
+    <color name="cs_26be96">#26be96</color>
+    <!--病情分类右侧评价与好评-->
+    <color name="cs_828282">#828282</color>
+    <!--病情分类右侧药名-->
+    <color name="cs_333333">#333333</color>
+    <color name="cs_262626">#262626</color>
+    <!--订单标签-->
+    <color name="cs_727272">#727272</color>
+    <!--积分蓝-->
+    <color name="cs_1AA7FC">#1AA7FC</color>
+    <!--Edit颜色-->
+    <color name="cs_AFAFAF">#AFAFAF</color>
+    <!--标准弹窗标题-->
+    <color name="cs_4E4E4D">#4E4E4D</color>
+    <!--退出按钮-->
+    <color name="cs_FE5D58">#FE5D58</color>
+    <!--背景色-->
+    <color name="cs_F0F5FA">#F0F5FA</color>
+    <!--用药计划(无)-->
+    <color name="cs_919191">#919191</color>
+    <!--新建计划部分文字-->
+    <color name="cs_5B5C5C">#5B5C5C</color>
+    <!--首页消息滚轮字色-->
+    <color name="cs_747474">#747474</color>
+    <!--搜索文字-->
+    <color name="cs_4a4a4a">#4a4a4a</color>
+    <!--购物车还是空的-->
+    <color name="cs_484848">#484848</color>
+    <!--热销药品价格-->
+    <color name="cs_fe5d58">#fe5d58</color>
+    <!--购物车合计-->
+    <color name="cs_0b0b0b">#0b0b0b</color>
+    <!--购物车价格-->
+    <color name="cs_ff4621">#ff4621</color>
+    <!--请输入兑换码-->
+    <color name="cs_999999">#999999</color>
+    <!--兑换按钮-->
+    <color name="cs_cccccc">#cccccc</color>
+    <!--过期及已使用变灰-->
+    <color name="cs_cdcdcd">#cdcdcd</color>
+    <!--使用按钮-->
+    <color name="cs_f28b84">#f28b84</color>
+    <!--系统消息线-->
+    <color name="cs_dddddd">#dddddd</color>
+    <!--我的积分标题-->
+    <color name="cs_585858">#585858</color>
+    <!--我的积分时间-->
+    <color name="cs_aeaeae">#aeaeae</color>
+    <!--购物车内容描述-->
+    <color name="cs_707070">#707070</color>
+    <!--好评度-->
+    <color name="cs_202020">#202020</color>
+    <!--好评率-->
+    <color name="cs_f70100">#f70100</color>
+    <!--评价列表时间-->
+    <color name="cs_979797">#979797</color>
+    <!--评价列表内容-->
+    <color name="cs_2e2e2e">#2e2e2e</color>
+    <!--评价列表药品名-->
+    <color name="cs_b4b4b4">#b4b4b4</color>
+    <!--继续拖动-->
+    <color name="cs_b4b3b3">#b4b3b3</color>
+    <!--继续拖动两侧线-->
+    <color name="cs_d2d2d2">#d2d2d2</color>
+    <!--规格参数线-->
+    <color name="cs_bfbfbf">#bfbfbf</color>
+    <!--规格参数文字-->
+    <color name="cs_666666">#666666</color>
+    <!--流式布局未选中填充-->
+    <color name="cs_f4f7fd">#f4f7fd</color>
+    <!--购物车商品编码字号-->
+    <color name="cs_383838">#383838</color>
+    <!--评价晒单文字-->
+    <color name="cs_949494">#949494</color>
+    <!--你的评价能帮助小伙伴-->
+    <color name="cs_b5b5b5">#b5b5b5</color>
+    <!--特殊背景(如我的订单)-->
+    <color name="cs_f5f5f5">#f5f5f5</color>
+    <!--我的订单分割线-->
+    <color name="cs_dcdcdc">#dcdcdc</color>
+    <!--金色-->
+    <color name="cs_ef6f01">#ef6f01</color>
+    <!--订单绿字体-->
+    <color name="cs_02c8a8">#02c8a8</color>
+    <!--白色共通标题字体-->
+    <color name="cs_3b3b3b">#3b3b3b</color>
+    <!--订单详情用户字体-->
+    <color name="cs_272727">#272727</color>
+    <!--提示字体-->
+    <color name="cs_909090">#909090</color>
+    <!--绿色字体-->
+    <color name="cs_17a92c">#17a92c</color>
+    <!--伸展背景-->
+    <color name="cs_f8f8f8">#f8f8f8</color>
+    <!--血压未选中文字-->
+    <color name="cs_fefefe">#fefefe</color>
+    <!--血压时间文字-->
+    <color name="cs_606060">#606060</color>
+    <!--血压贴士-->
+    <color name="cs_969696">#969696</color>
+    <!--血压手动记录-->
+    <color name="cs_547bcf">#547bcf</color>
+    <!--血压水波纹线-->
+    <color name="cs_5a86dd">#5a86dd</color>
+    <!--体重背景-->
+    <color name="cs_01bf6c">#01bf6c</color>
+    <!--体重文字-->
+    <color name="cs_7b7b7b">#7b7b7b</color>
+    <!--订单文字-->
+    <color name="cs_353535">#353535</color>
+    <!--商品金额-->
+    <color name="cs_2c2c2c">#2c2c2c</color>
+    <!--确认付款-->
+    <color name="cs_303030">#303030</color>
+    <!--健康头条子项标题文字-->
+    <color name="cs_424242">#424242</color>
+    <!--健康头条子项内容文字-->
+    <color name="cs_bebebe">#bebebe</color>
+    <!--用药管理子项标题文字-->
+    <color name="cs_4c4c4c">#4c4c4c</color>
+    <!--用药管理子项内容文字-->
+    <color name="cs_888888">#888888</color>
+    <!--计划详情蓝色圈-->
+    <color name="cs_33ccec">#33ccec</color>
+    <!--加号-->
+    <color name="cs_5b5c5c">#5b5c5c</color>
+    <!--运动步数颜色-->
+    <color name="cs_ff881a">#ff881a</color>
+    <!--健康管理文字-->
+    <color name="cs_444444">#444444</color>
+    <!--健康管理文字颜色-->
+    <color name="cs_179f85">#179f85</color>
+    <!--血糖-->
+    <color name="cs_f0605f">#f0605f</color>
+    <!--好评率金色-->
+    <color name="cs_ff7500">#ff7500</color>
+    <!--好评率灰色-->
+    <color name="cs_7d7d7d">#7d7d7d</color>
+    <!--执业医师字色-->
+    <color name="cs_7c7c7c">#7c7c7c</color>
+    <!--体重趋势图填充色-->
+    <color name="cs_eef9ff">#eef9ff</color>
+
+
+    <color name="point_selected_color">#ffffff</color>
+    <color name="point_normal_color">#ff888888</color>
+
+
+    <color name="md_light_green_300">#AED581</color>
+</resources>

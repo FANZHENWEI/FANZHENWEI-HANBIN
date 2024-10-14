@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/include_top_green"
+        layout="@layout/include_top_title_green"
+        android:visibility="visible" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+
+        android:layout_gravity="center_vertical"
+        android:layout_margin="20dp"
+        android:background="@drawable/textview_border">
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginHorizontal="10dp"
+            android:src="@mipmap/icon_search"
+            app:tint="#737373" />
+
+        <EditText
+            android:id="@+id/search_input"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@null"
+            android:hint="음식이름을 입력해주세요"
+            android:imeActionLabel="검색"
+            android:imeOptions="actionSearch"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:singleLine="true"
+            android:textColor="#fff"
+            android:textColorHint="#737373"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/ll_s"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hot_search"
+        android:layout_margin="@dimen/text10"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/app_button_background_yellow"
+            android:layout_margin="@dimen/text10"
+            android:text="@string/hs1"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/app_button_background_yellow"
+            android:layout_margin="@dimen/text10"
+            android:text="@string/hs2"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/app_button_background_yellow"
+            android:layout_margin="@dimen/text10"
+            android:text="@string/hs3"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/app_button_background_yellow"
+            android:layout_margin="@dimen/text10"
+            android:text="@string/hs4"/>
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_50"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="@dimen/text10"
+            android:layout_marginTop="@dimen/text10"
+            android:layout_marginEnd="@dimen/text10"
+            android:layout_marginBottom="@dimen/text10"
+            android:gravity="center"
+            android:text="@string/history" />
+
+        <ImageView
+            android:id="@+id/iv_delete"
+            android:layout_width="@dimen/dp_30"
+            android:layout_height="@dimen/dp_30"
+            android:layout_marginStart="@dimen/text10"
+            android:layout_marginTop="@dimen/text10"
+            android:layout_marginBottom="@dimen/text10"
+            android:layout_toLeftOf="@+id/tv_clear"
+            android:background="@drawable/ic_del"
+            android:gravity="right" />
+
+        <TextView
+            android:id="@+id/tv_clear"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentEnd="true"
+            android:layout_gravity="center"
+            android:layout_marginStart="@dimen/text10"
+            android:layout_marginTop="@dimen/text10"
+            android:layout_marginEnd="@dimen/text10"
+            android:layout_marginBottom="@dimen/text10"
+            android:gravity="center"
+            android:text="@string/clear" />
+    </RelativeLayout>
+        <LinearLayout
+            android:id="@+id/ll_history"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/app_button_background_yellow"
+                android:layout_margin="@dimen/text10"
+                android:textSize="@dimen/text10"
+                android:text="@string/hs5"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/app_button_background_yellow"
+                android:layout_margin="@dimen/text10"
+                android:textSize="@dimen/text10"
+                android:text="@string/hs6"/>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:background="@color/colorTabSelect"
+        android:orientation="vertical">
+
+        <ListView
+            android:id="@+id/listview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:background="@color/white"></ListView>
+
+
+    </LinearLayout>
+</LinearLayout>

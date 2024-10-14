@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">DietPlanApp</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="dietplan">식생활 계획</string>
+    <string name="caloriesquery">칼로리 조회</string>
+    <string name="userinfo">개인 정보</string>
+    <string name="fitnessassistant">헬스도우미</string>
+    <string name="yy_value">동작 이름</string>
+    <string name="hot_search">인기 검색어</string>
+    <string name="hs1">밥</string>
+    <string name="hs2">계단</string>
+    <string name="hs3">떡</string>
+    <string name="hs4">토마토</string>
+    <string name="hs5">오이</string>
+    <string name="hs6">아이스 아메리카노</string>
+    <string name="history">기록 검색</string>
+    <string name="clear">삭제</string>
+
+    <string name="toal">총칼로리</string>
+    <string name="total_result">칼로리 섭취가 턱없이 부족하다</string>
+    <string name="cal">세 끼의 칼로리 비율</string>
+    <string name="cal_result">아침 칼로리의 비율이 높고 아침 칼로리의 비율이 높으며 아침 칼로리의 비율이 높으므로 세 끼의 칼로리를 합리적으로 분배해야 한다</string>
+    <string name="nut">세끼 영양 비율</string>
+    <string name="nut_result">탄수화물 비율이 높고 지방 비율이 높으므로 세 끼의 영양을 합리적으로 분배해야 한다.</string>
+    <string name="notice">참고: 이 결과는 미성년자, 운동선수, 임산부 및 수유부에게는 적용되지 않다.</string>
+    <string name="step0"> 몸을 안정적으로 유지하기 위해 비스듬한 벤치 위에 등, 엉덩이 및 머리를 벤치 표면에 밀착시키다.\n
+                         두 발이 땅을 단단히 밟고 어깨와 같거나 약간 넓으며 발끝이 약간 벌어져 더 나은 안정성을 제공하다.\n
+                         두 손으로 바벨을 잡고 어깨 너비보다 약간 큰 폭으로 잡고 손바닥이 앞쪽으로 향하게 하고 바벨을 가슴 부근까지 천천히 내리고 팔꿈치를 약간 안쪽으로 당겨 몸을 안정시킨다.\n
+                         팔을 뻗어도 잠기지 않을 때까지 바벨을 위로 밀어 올리다.</string>
+    <string name="huxi0"> 숨을 들이마시고 숨을 유지하면서 바벨을 가슴 근처까지 천천히 내립니다.\n
+                         바벨을 위로 밀 때 숨을 내쉬며 내뱉어 몸의 긴장과 안정을 유지한다.</string>
+    <string name="feel0"> 바벨의 비스듬한 눕힘은 주로 가슴 근육, 앞쪽 어깨 묶음 및 삼두근과 같은 근육을 단련한다.\n
+                         바른 자세에서 당신은 가슴과 어깨의 근육, 수축, 긴장감을 느낄 수 있다.</string>
+    <string name="step1"> 11111111111111\n</string>
+    <string name="huxi1"> 111111111\n</string>
+    <string name="feel1"> 2222222222\n</string>
+    <string name="analyse">analyse</string>
+    <string name="selectphoto">plese select a photo</string>
+    <string name="identifyresult">Identify Result:</string>
+    <string name="analyseresult">Analyse Result:</string>
+    <string name="tips_noanalyse">please select a photo firstly</string>
+
+    <string name="cancel">Cancel</string>
+    <string name="local">Photo</string>
+    <string name="photo">Camera</string>
+
+</resources>

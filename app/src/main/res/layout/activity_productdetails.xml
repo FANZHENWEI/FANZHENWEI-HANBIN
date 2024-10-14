@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+    <include
+        android:id="@+id/include_top_green"
+        layout="@layout/include_top_title_green"
+        android:visibility="visible" />
+    <VideoView
+        android:id="@+id/video_local"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_300" />
+
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/yy_value"
+        android:textSize="@dimen/space_20dp"
+        android:textStyle="bold" />
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="순서"
+            android:textSize="@dimen/space_20dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/tv_step"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/nut_result"
+            android:textSize="@dimen/space_12dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="호흡"
+            android:textSize="@dimen/space_20dp"
+            android:textStyle="bold"/>
+        <TextView
+            android:id="@+id/tv_huxi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/huxi0"
+            android:textSize="@dimen/space_12dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="동작 감각"
+            android:textSize="@dimen/space_20dp"
+            android:textStyle="bold"/>
+        <TextView
+            android:id="@+id/tv_feel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/feel0"
+            android:textSize="@dimen/space_12dp"/>
+
+    </LinearLayout>
+</ScrollView>
+
+</LinearLayout>
